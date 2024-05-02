@@ -37,4 +37,12 @@ bin/
 jdt-language-server-latest.tar.gz
 jdtls/
 
-!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
